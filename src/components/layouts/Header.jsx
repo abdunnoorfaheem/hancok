@@ -9,10 +9,10 @@ import { FaSignOutAlt,FaSearch  } from "react-icons/fa";
 const Header = () => {
   return (
     <>
-      <div className="py-[30px] bg-black text-white">
+      <div className="py-[20px] bg-[#0C0C0E] text-white">
         <Container>
           <Flex className={"justify-between"}>
-          <Heading text={"Hancok"} tagName={"h3"} className={""}/>
+          <Heading text={"Hancok"} tagName={"h3"} className={"text-[24px] font-bold"}/>
           <div className="">
             <ul className="flex gap-x-12">
             <li>
