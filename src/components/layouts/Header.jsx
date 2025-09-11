@@ -9,7 +9,7 @@ import { FaSignOutAlt,FaSearch  } from "react-icons/fa";
 const Header = () => {
   return (
     <>
-      <div className="py-[20px] bg-[#0C0C0E] text-white">
+      <div className="py-[20px] bg-[#0C0C0E] text-white font-oswald">
         <Container>
           <Flex className={"justify-between"}>
           <Heading text={"Hancok"} tagName={"h3"} className={"text-[24px] font-bold"}/>
